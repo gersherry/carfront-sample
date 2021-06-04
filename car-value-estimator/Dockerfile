@@ -1,4 +1,4 @@
-FROM openjdk:10
+FROM openjdk:11.0.9.1
 VOLUME /tmp
 ADD target/car-value-estimator-service-0.1.0.jar app.jar
 ADD elastic-apm-agent-1.12.0.jar apm-agent.jar
